@@ -4,7 +4,7 @@ const Users = props => {
     return (
         <div> 
             <table className="table table-hover">
-            <thead className="thead-dark">
+            <thead className="thead-light">
                 <tr>
                 <th scope="col">ID</th>
                 <th scope="col">First</th>
