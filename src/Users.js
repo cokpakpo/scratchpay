@@ -2,7 +2,7 @@ import React from 'react'
 
 const Users = props => {
     return (
-        <div> 
+        <div table-responsive-sm> 
             <table className="table table-hover">
             <thead className="thead-light">
                 <tr>
