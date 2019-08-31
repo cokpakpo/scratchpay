@@ -46,16 +46,16 @@ class Add  extends Component {
                         <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                     </div>
                     <div className="form-group">
-                        <select className="custom-select" id="role" onChange={this.handleChange}>
-                            <option defaultValue>Select Role</option>
+                        <select className="custom-select" id="role" onChange={this.handleChange} required>
+                            <option value="" defaultValue>Select Role</option>
                             <option value="doctor">Doctor</option>
                             <option value="admin">Admin</option>
                             <option value="accountant">Accountant</option>
                         </select>
                     </div>
                     <div className="form-group">
-                        <select className="custom-select" id="status" onChange={this.handleChange}>
-                            <option value="inactive">Select status</option>
+                        <select className="custom-select" id="status" onChange={this.handleChange} required>
+                            <option value="" defaultValue>Select status</option>
                             <option value="inactive">Inactive</option>
                             <option value="active">Active</option>
                         </select>
